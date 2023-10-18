@@ -1,0 +1,27 @@
+	Hyperlinks <!-- add h2 tags -->
+	
+	Link in a paragraph of text  <!-- add h3 tags -->
+	<p>The website for the Computer Science department in Cork Institute of Technology</p> <!-- create a hyperlink for website http://cs.cit.ie activated by the phrase Computer Science. -->
+	
+	Links positioned on individual lines  <!-- add h3 tags -->
+	<p>  <!-- add links to each of the 3 websites mentioned below -->
+	MTU main website:  <br>
+	MTU Cork:  <br>
+	MTU Computer Science department website:  <br>
+	</p>
+
+	Links as a basic navigation menu <!-- add h3 tags -->
+	<p>
+	| <!-- add link to MTU --> |
+	<!-- add link to MTU Cork --> |
+	<!-- add link to Computer Science department website --> |
+	</p>
+	
+	Links for Email Address<!-- add h3 tags -->
+	<p>
+	Email address: <!-- add link to your mycit.ie email address --> </p>
+	
+	<h3>Links for Telephone Numbers</h3>
+	<p>
+	Phone number: <!-- add link to phone number on lab sheet -->  </p>
+	<hr>
