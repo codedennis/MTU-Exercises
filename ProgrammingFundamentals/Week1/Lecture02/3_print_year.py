@@ -1,4 +1,4 @@
-# Name:  Karl O'Connell
+# Name:  Dennis Santos
 # Description: shows how to store a variable
 # and print it out later 
 this_year = 2023

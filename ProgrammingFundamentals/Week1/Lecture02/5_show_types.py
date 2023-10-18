@@ -1,5 +1,5 @@
 #  Name: show_types.py
-#  Author: Karl O'Connell
+#  Author: Dennis Santos
 #  Description :  illustrate  showing a variables a type
 age = 21
 height_in_metres = 3.1
