@@ -17,7 +17,7 @@ nav {
     height: 80px;
     width: 100%;
 }
-label.logo {
+.logo {
     color: #f8f3df  ;
     font-size: 35px;
     line-height: 80px;
@@ -56,7 +56,7 @@ a.active,a:hover {
     display: none;
 }
 @media (max-width: 952px){
-    label.logo{
+    .logo{
         font-size: 30px;
         padding-left: 50px;
     }
@@ -94,12 +94,42 @@ a.active,a:hover {
         left: 0;
     }
 }
-section {
-    background: url(https://wallpapercave.com/wp/wp4008077.jpg) no-repeat;
+
+/*----------------------HOME PAGE BANNER--------------------------*/
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #bad36d), url(https://wallpapercave.com/wp/wp4008077.jpg) no-repeat;
     background-size: cover;
     height: calc(100vh - 80px);
+    color: #f8f3df;
 }
-
+.banner-content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #f8f3df;
+}
+.content h1 {
+    font-size: 70px;
+    margin-top: 80px;
+}
+.content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+#video-content {
+    width: 640px;
+    height: 360px;
+}
+.btn {
+    width: 200px;
+    padding: 20px 0;
+    margin-left: 40%;
+    display: flex;
+}
 /*---------------------------FORM--------------------------------*/
 
 .hero {
@@ -130,7 +160,7 @@ input, textarea {
     background: transparent;
     font-size: 15px;
 }
-label {
+label.label-form {
     height: 100%;
     position: absolute;
     left: 0;
@@ -149,8 +179,12 @@ button {
     width: 100%;
     cursor: pointer;
 }
-input:focus~label,
-input:valid~label,
+input:focus~#name-label,
+input:valid~#name-label,
+input:focus~#phone-label,
+input:valid~#phone-label,
+input:focus~#email-label,
+input:valid~#email-label,
 textarea:focus~label,
 textarea:valid~label {
     top: -35px;
@@ -163,4 +197,12 @@ textarea:valid~label {
 }
 .row .input-group {
     flex-basis: 48%;
+}
+.contact-title{
+    color: #f8f3df;
+    width: 100%;
+    margin-bottom: 35px;
+}
+.contact-title p {
+    margin-top: 15px;
 }
